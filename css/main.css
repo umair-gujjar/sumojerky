@@ -1,0 +1,322 @@
+html {
+	font-size: 62.5%; /* Setting the root font size to 10px*/
+}
+	
+body { 
+	font-family: 'Arimo', sans-serif;
+	font-size: 1em;
+	text-align: center;
+	margin: 1em auto;
+	line-height: 1.2;
+	/*color: rgb(75,75,75);*/
+	/*color: rgb(255,255,185);*/
+	/*color: white;*/
+	/*text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);*/
+	/*background-color: rgb(33, 117, 156);*/
+	/*background-color: #6299A8;*/
+	/*background-color: #574949;*/
+
+}
+
+*::-webkit-input-placeholder {
+    font-family: 'Arimo', sans-serif;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    font-family: 'Arimo', sans-serif;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    font-family: 'Arimo', sans-serif;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    font-family: 'Arimo', sans-serif;
+}
+
+header {
+	margin: 0 15%;
+
+}
+
+.logo-area {
+	height: 10em;
+	display: inline-block;
+	/*background-color: red;*/
+}
+.logo {
+	display: inline-block; 
+	margin: 0 auto;
+	height: 10em;
+/*	background-color: green;*/
+}
+
+.bag {
+	display: inline-block;
+	height: 6em;
+	width: 6em;
+	border-radius: 2px 2px 3px 3px;
+	float: left;
+	background: rgba(252,235,216,1);
+	background: -moz-linear-gradient(top, rgba(252,235,216,1) 0%, rgba(240,202,156,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252,235,216,1)), color-stop(100%, rgba(240,202,156,1)));
+	background: -webkit-linear-gradient(top, rgba(252,235,216,1) 0%, rgba(240,202,156,1) 100%);
+	background: -o-linear-gradient(top, rgba(252,235,216,1) 0%, rgba(240,202,156,1) 100%);
+	background: -ms-linear-gradient(top, rgba(252,235,216,1) 0%, rgba(240,202,156,1) 100%);
+	background: linear-gradient(to bottom, rgba(252,235,216,1) 0%, rgba(240,202,156,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcebd8', endColorstr='#f0ca9c', GradientType=0 );
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(59,59,59,.7);
+	-moz-box-shadow: 0px 1px 0px 0px rgba(59,59,59,.7);
+	box-shadow: 0px 1px 0px 0px rgba(59,59,59,.7);
+	margin-top: 2.65em;
+		
+}
+
+.label {
+	width: 4em;
+	height: 1.5em;
+	background-color: white;
+	margin:.8em auto;
+	border-radius: 2px;
+}
+
+.window {
+	height: 2em;
+	width: 4em;
+	margin: .5em auto;
+	border-radius: 100%;
+	/*border: solid 1px rgba(143,143,143,.7);*/
+	background: rgba(224,183,141,1);
+	background: -moz-linear-gradient(top, rgba(224,183,141,1) 0%, rgba(148,109,68,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(224,183,141,1)), color-stop(100%, rgba(148,109,68,1)));
+	background: -webkit-linear-gradient(top, rgba(224,183,141,1) 0%, rgba(148,109,68,1) 100%);
+	background: -o-linear-gradient(top, rgba(224,183,141,1) 0%, rgba(148,109,68,1) 100%);
+	background: -ms-linear-gradient(top, rgba(224,183,141,1) 0%, rgba(148,109,68,1) 100%);
+	background: linear-gradient(to bottom, rgba(224,183,141,1) 0%, rgba(148,109,68,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0b78d', endColorstr='#946d44', GradientType=0 );
+}
+.logo-text {
+	display: inline-block;
+	/*font-family: 'Courgette', cursive;*/
+	font-family: 'Neuton', serif;
+	font-size: 8em;
+	height: 1.25em;
+	line-height: 1.25em;
+  	white-space: nowrap;
+	text-align: center;
+	float: left;
+/*	background-color: blue;*/
+	padding-left: .15em;
+	/*text-shadow: 2px 2px 3px rgba(150, 150, 150, 1);*/
+}
+
+
+.benefit-statement {
+	font-size: 4.5em;
+	clear: both;
+	font-weight: bold;
+	margin: .5em 0;
+	/*text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);*/
+}
+
+.features {
+	font-size: 2.4em;
+	word-wrap: break-word;
+	text-shadow: none;
+	margin: 1em 10%;
+}
+.signup-form {
+	display: inline-block;
+	margin: 1em auto;
+	/*background-color: blue;*/
+}
+input[type="email"] {
+	display: block;
+	margin: .5em auto;
+	width: 100%;
+	padding: 0.6em;
+	border-radius: 3px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-size: 1.8em;
+	text-shadow: none;
+	border: 1px solid #ccc;
+	background-color: rgb(245,245,245);
+	-moz-appearance: email;
+    -webkit-appearance: email;
+    appearance: email;
+    font-family: 'Arimo', sans-serif;
+    color: rgb(77, 77, 77)
+}
+.signup-button {
+	-moz-box-shadow: 1px 2px 0px 0px #f07368;
+	-webkit-box-shadow: 1px 2px 0px 0px #f07368;
+	box-shadow: 1px 2px 0px 0px #f07368;
+	background-color:#fc8d83;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size: 2.1em;
+	padding:14px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+	margin: .2em auto;
+}
+.signup-button:hover {
+	background-color:#e4685d;
+}
+.signup-button:active {
+	position:relative;
+	top:1px;
+}
+
+.learn-more {
+	display: block;
+	font-size: 1.6em;
+
+}
+
+
+/*Start styling refer.html*/
+.congratulations {
+	display: block;
+	border: 1px solid #095DAB;
+	border-radius: 4px;
+	width: 300px;
+	padding: 1em;
+	text-align: left;
+	background-color: #e8f4ff;
+	-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+	font-size: 1.3em;
+	color: #095DAB;
+	margin: 8px auto;
+}
+
+main {
+	margin: 0 10%;
+}
+
+.referral-offer {
+	font-size: 2.6em;
+	line-height: 1.4;
+	margin-top: 1em;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.italics {
+	font-style: italic;
+}
+
+.offer-explainer {
+	margin-bottom: 3em;
+}
+
+p {
+	font-size: 1.4em;
+	line-height: 1.4;
+}
+
+.email-invite {
+	display: inline-block;
+	background-color: blue;
+}
+
+.gmail-invite-section {
+	display: block;
+	background-color: red;
+	float: left;
+}
+.gmail-invite {
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
+	background:-moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa',GradientType=0);
+	background-color:#2dabf9;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #0c6ebe;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:21px;
+	padding:8px 23px;
+	text-decoration:none;
+	text-shadow:none;
+	margin: .4em auto;
+}
+.gmail-invite:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));
+	background:-moz-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-webkit-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9',GradientType=0);
+	background-color:#0688fa;
+}
+.gmail-invite:active {
+	position:relative;
+	top:1px;
+}
+
+.fa-lock {
+	font-size: 1.3em;
+}
+
+.invite-text {
+	padding-left: 8px;
+	position: relative;
+	bottom: 8px;
+}
+
+.privacy {
+	display: inline-block;
+	padding-left: 3px;
+	font-size: 1.1em;
+}
+
+.or {
+	padding: 0 8px;
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+input[type="textarea"] {
+	display: inline-block;
+	margin: .7em auto;
+	min-height: 56px;
+	width: 250px;
+	padding: 0.6em;
+	border-radius: 3px 0 0 3px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-size: 1.1em;
+	text-shadow: none;
+	border: 1px solid #ccc;
+	background-color: rgb(250,250,250);
+	-moz-appearance: textarea;
+    -webkit-appearance: textarea;
+    appearance: textarea;
+    font-family: 'Arimo', sans-serif;
+    color: rgb(77, 77, 77)
+}
+
+
